@@ -12032,8 +12032,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    background-color: red;
+    background-color: violet;
+    max-width: 500px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    background-color: green;
+    min-width: 500px;
   }
 }/*# sourceMappingURL=style.css.map */
